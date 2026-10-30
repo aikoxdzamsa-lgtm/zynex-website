@@ -1,38 +1,343 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/app/">
-
   <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b14">
+  <meta name="description" content="Zynex AI — Your intelligent assistant for learning, creativity and everyday questions.">
 
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="ai_tutor">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <title>Zynex AI — Intelligence Without Limits</title>
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>ai_tutor</title>
-  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <script src="flutter_bootstrap.js" async></script>
+
+  <!-- Background -->
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+  <div class="grid-background"></div>
+
+  <!-- Navigation -->
+  <header class="navbar">
+
+    <a href="#" class="logo">
+      <span class="logo-icon">✦</span>
+      <span>ZYNEX</span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#download">Download</a>
+    </nav>
+
+    <a href="#launch" class="nav-button">
+      Launch Zynex ↗
+    </a>
+
+  </header>
+
+  <!-- Hero -->
+  <main>
+
+    <section class="hero">
+
+      <div class="announcement">
+        <span class="announcement-dot"></span>
+        Introducing Zynex AI
+        <span>→</span>
+      </div>
+
+      <h1>
+        Intelligence<br>
+        <span class="gradient-text">Without Limits.</span>
+      </h1>
+
+      <p class="hero-description">
+        Meet Zynex, your AI-powered assistant.
+        Learn smarter, solve problems, explore ideas,
+        and unlock your creativity.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#launch" class="primary-button">
+          ✦ Start Using Zynex
+          <span>↗</span>
+        </a>
+
+        <a href="#download" class="secondary-button">
+          ↓ Download App
+        </a>
+
+      </div>
+
+      <div class="hero-stats">
+
+        <div>
+          <strong>15+</strong>
+          <span>Languages</span>
+        </div>
+
+        <div class="stat-divider"></div>
+
+        <div>
+          <strong>24/7</strong>
+          <span>AI Assistance</span>
+        </div>
+
+        <div class="stat-divider"></div>
+
+        <div>
+          <strong>∞</strong>
+          <span>Possibilities</span>
+        </div>
+
+      </div>
+
+      <!-- AI Preview -->
+      <div class="app-preview">
+
+        <div class="preview-header">
+          <div class="preview-dots">
+            <i></i><i></i><i></i>
+          </div>
+
+          <span>Zynex AI</span>
+
+          <div class="preview-status">
+            <span class="online-dot"></span>
+            Preview
+          </div>
+        </div>
+
+        <div class="preview-body">
+
+          <div class="preview-brand">✦</div>
+
+          <h2>What can I help you with?</h2>
+
+          <p>Ask anything. Explore everything.</p>
+
+          <div class="preview-prompts">
+            <span>✧ Explain mathematics</span>
+            <span>⌘ Write code</span>
+            <span>◈ Analyze images</span>
+            <span>✦ Generate ideas</span>
+          </div>
+
+          <div class="preview-input">
+            <span>Message Zynex...</span>
+            <div>↑</div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Features -->
+    <section class="features section" id="features">
+
+      <div class="section-heading">
+        <span class="section-label">POWERFUL FEATURES</span>
+
+        <h2>
+          Everything you need.<br>
+          <span class="gradient-text">One intelligent AI.</span>
+        </h2>
+
+        <p>
+          Discover what Zynex can do for you.
+        </p>
+      </div>
+
+      <div class="features-grid">
+
+        <div class="feature-card">
+          <div class="feature-icon">✦</div>
+          <h3>Intelligent AI Chat</h3>
+          <p>
+            Ask questions, explore topics and receive
+            helpful answers in seconds.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">∑</div>
+          <h3>Mathematics Tutor</h3>
+          <p>
+            Understand difficult problems with
+            clear step-by-step explanations.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">◈</div>
+          <h3>Image Analysis</h3>
+          <p>
+            Upload photos and let Zynex help you
+            understand what they contain.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">✧</div>
+          <h3>AI Image Generation</h3>
+          <p>
+            Turn creative descriptions into images,
+            when supported by your AI plan.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h3>Multiple Languages</h3>
+          <p>
+            Communicate with Zynex in Georgian,
+            English and many other languages.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">⌘</div>
+          <h3>Programming Assistant</h3>
+          <p>
+            Learn programming, understand code
+            and develop your own projects.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+
+      <div class="about-content">
+
+        <span class="section-label">MEET ZYNEX</span>
+
+        <h2>
+          Your ideas deserve<br>
+          <span class="gradient-text">a smarter assistant.</span>
+        </h2>
+
+        <p>
+          Zynex is designed to make learning,
+          creating and solving problems easier.
+          Whether you're studying mathematics,
+          writing code or exploring new ideas,
+          Zynex is here to help.
+        </p>
+
+        <a href="#launch" class="primary-button">
+          Explore Zynex ↗
+        </a>
+
+      </div>
+
+      <div class="about-visual">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="orb-center">✦</div>
+      </div>
+
+    </section>
+
+    <!-- Launch -->
+    <section class="launch section" id="launch">
+
+      <div class="cta-box">
+
+        <div class="cta-glow"></div>
+
+        <span class="section-label">GET STARTED</span>
+
+        <h2>
+          Ready to experience<br>
+          <span class="gradient-text">Zynex AI?</span>
+        </h2>
+
+        <p>
+          Your next great idea starts with a question.
+        </p>
+
+        <button class="primary-button" id="launchButton">
+          ✦ Launch Zynex
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- Download -->
+    <section class="download section" id="download">
+
+      <div class="section-heading">
+
+        <span class="section-label">ZYNEX EVERYWHERE</span>
+
+        <h2>
+          Take intelligence<br>
+          <span class="gradient-text">with you.</span>
+        </h2>
+
+        <p>
+          Use Zynex on your phone, tablet or computer.
+        </p>
+
+      </div>
+
+      <div class="download-buttons">
+
+        <button class="secondary-button" id="androidButton">
+          ↓ Download for Android
+        </button>
+
+        <button class="secondary-button" id="installButton">
+          ✦ Install Web App
+        </button>
+
+      </div>
+
+      <p class="download-note">
+        App downloads will become available after release.
+      </p>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+
+    <div class="footer-top">
+
+      <div>
+        <div class="footer-logo">✦ ZYNEX</div>
+        <p>Intelligence Without Limits.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#download">Download</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Zynex AI. All rights reserved.</span>
+      <span>Made for curious minds.</span>
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
